@@ -5,10 +5,10 @@ metadata:
     openshift.io/host.generated: "true"
   labels:
     app: haproxy-service
-  name: fe
+  name: test
   namespace: jduimovich-dev
 spec:
-  host: fe-jduimovich-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
+  host: test-jduimovich-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
   port:
     targetPort: 8080
   tls:
