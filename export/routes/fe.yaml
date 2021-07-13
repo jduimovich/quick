@@ -9,6 +9,7 @@ metadata:
   namespace: jduimovich-dev
 spec:
   host: fe
+  port:
     targetPort: 8080
   tls:
     insecureEdgeTerminationPolicy: Redirect
